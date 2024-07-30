@@ -23,7 +23,7 @@ MODEL_NAME = 'unsloth/mistral-7b-v0.2-bnb-4bit'
 SAVE_MODEL_NAME = 'mistral-7b-v0.2-quickreel'
 
 #Initializing WandB
-wandb.login(key=os.getenv("WANDB_API_KEY"))
+wandb.login(key=os.getenv("e35a85fe1fece13bb07176b39d1e570f6ee20039"))
 wandb.init(project=PROJECT_NAME, name = RUN_NAME)
 
 
